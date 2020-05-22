@@ -1,0 +1,3 @@
+data = input("enter comma separated words")
+splitword = [word for word in data.split(",")
+print(",".join(sorted(list(set(splitword)))))
