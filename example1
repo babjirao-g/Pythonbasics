@@ -1,0 +1,11 @@
+l=[1,4,9,10,23]
+print(l)
+sl1=l[1:3]
+print(sl1)
+sl2=l[3:]
+print(sl2)
+l.append(90)
+print(l)
+# concatanations does not modify the originsl list where as append insert and modify the original list
+print('Average is ',sum(l)/len(l))
+del l[1:3]
